@@ -6,16 +6,16 @@ Author: Farmacias Knop
 Website: http://farmaciasknop.com
 ----------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap");
 
 body {
-   margin: 0;
-   padding: auto;
-   font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: auto;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .fw-bold {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .fw-medium {
@@ -23,7 +23,7 @@ body {
 }
 
 .fw-light {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .verde-claro {
@@ -38,24 +38,134 @@ body {
     color: #c75516;
 }
 
+.blanco {
+    color: #ffffff;
+}
+
+.amarillo {
+    color: #b5ff00 !important;
+}
+
 .gris {
-    color: #787A91;
+    color: #323232;
 }
 
 .fs-14 {
-    font-size:14px;
+    font-size: 14px;
 }
 
 .fs-18 {
     font-size: 18px;
 }
 
-.fs-32 {
-    font-size: 32px;
+.fs-24 {
+    font-size: 24px;
 }
 
+.fs-40 {
+    font-size: 40px;
+}
 
+.img-header {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon-img {
+    width: 15%;
+}
+
+.btn-margin {
+    margin: 1em 0;
+}
+
+.footer-bg {
+    background-color: #1c5830;
+    padding: 5px 0;
+}
+
+.list-group-item {
+    background-color: #1c5830 !important;
+    color: white !important;
+}
+
+.email {
+    font-size: 12px;
+}
+
+.telefono {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.horario {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.txt-none {
+    text-decoration: none;
+    color: white;
+}
+
+.txt-none:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.b-bottom {
+    border-bottom: 2px solid #b5ff00;
+    padding: 5px 0;
+}
+
+.back-to-top {
+    background-color: #83b735 !important;
+    border: 1px solid #83b735;
+    color: white;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    padding: 5px;
+}
+
+.m6 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 
 @media (max-width: 768px) {
-   
+    .orden-uno {
+        order: 2;
+    }
+    .orden-dos {
+        order: 1;
+    }
+    .orden-tres {
+        order: 3;
+    }
+    .orden-cuatro {
+        order: 3;
+    }
+    .orden-cinco {
+        order: 6;
+    }
+    .orden-seis {
+        order: 5;
+    }
+
+    .m6 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .m7 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .m8 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
