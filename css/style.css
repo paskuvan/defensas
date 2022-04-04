@@ -1,0 +1,61 @@
+/* --------------------------------------------------------
+Bajar el peso - Farmacias Knop
+Version: 1.0
+Last modified: 09/05/2022 by Farmacias Knop
+Author: Farmacias Knop
+Website: http://farmaciasknop.com
+----------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;800&display=swap');
+
+body {
+   margin: 0;
+   padding: auto;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.fw-bold {
+    font-weight: 800;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-light {
+    font-weight: 300;
+}
+
+.verde-claro {
+    color: #83b735;
+}
+
+.verde-oscuro {
+    color: #1c5630;
+}
+
+.naranja {
+    color: #c75516;
+}
+
+.gris {
+    color: #787A91;
+}
+
+.fs-14 {
+    font-size:14px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+
+
+@media (max-width: 768px) {
+   
+}
