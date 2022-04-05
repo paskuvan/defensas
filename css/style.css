@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
-Bajar el peso - Farmacias Knop
+Defensas - Farmacias Knop
 Version: 1.0
-Last modified: 09/05/2022 by Farmacias Knop
+Last modified: 05/04/2022 by Farmacias Knop
 Author: Farmacias Knop
 Website: http://farmaciasknop.com
 ----------------------------------------------------------*/
@@ -9,203 +9,213 @@ Website: http://farmaciasknop.com
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;900&display=swap");
 
 body {
-    margin: 0;
-    padding: auto;
-    font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: auto;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.bg-border {
+    border-radius: 10px;
+    border: 2px solid #83b73557;
+    padding: 40px 10px;
 }
 
 .fw-bold {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .fw-medium {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fw-light {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .verde-claro {
-    color: #83b735;
+  color: #83b735;
 }
 
 .verde-oscuro {
-    color: #1c5630;
+  color: #1c5630;
 }
 
 .naranja {
-    color: #c75516;
+  color: #c75516;
 }
 
 .blanco {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .amarillo {
-    color: #b5ff00 !important;
+  color: #b5ff00 !important;
 }
 
 .gris {
-    color: #323232;
+  color: #323232;
 }
 
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .fs-18 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .fs-24 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .fs-40 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .img-header {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .icon-img {
-    width: 15%;
+  width: 15%;
 }
 
 .btn-margin {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .img-producto01 {
-    width: 60%;
+  width: 60%;
 }
 
 .footer-bg {
-    background-color: #064420;
-    padding: 5px 0;
+  background-color: #064420;
+  padding: 5px 0;
 }
 
 .list-group-item {
-    background-color: #064420 !important;
-    color: white !important;
+  background-color: #064420 !important;
+  color: white !important;
 }
 
 .email {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .telefono {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .horario {
-    font-size: 14px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .txt-none {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .txt-none:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .b-bottom {
-    border-bottom: 2px solid #b5ff00;
-    padding: 5px 0;
+  border-bottom: 2px solid #b5ff00;
+  padding: 5px 0;
 }
 
 .back-to-top {
-    background-color: #83b735 !important;
-    border: 1px solid #83b735;
-    color: white;
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-    padding: 5px;
+  background-color: #83b735 !important;
+  border: 1px solid #83b735;
+  color: white;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  padding: 5px;
 }
 
 .m6 {
-    margin-top: 40px;
-    margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .m7 {
-    margin-top: 100px;
-    margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 .logotipo-footer {
-    width: 40%;
+  width: 40%;
 }
 
 .footer-mg {
-    margin-bottom: 60px
+  margin-bottom: 60px;
 }
 
 .align-header {
-    margin-top: 8em;
-    margin-left: 5em;
+  margin-top: 8em;
+  margin-left: 5em;
 }
 
 .btn-default {
-    background-color: #064420 !important;
-    color: white !important;
+  background-color: #064420 !important;
+  color: white !important;
 }
 
 .btn-default:hover {
-    background-color: #83b735 !important;
-    color: white !important;
+  background-color: #83b735 !important;
+  color: white !important;
 }
 
 @media (max-width: 768px) {
-    .no-margin {
-        margin: 0;
-    }
+  .no-margin {
+    margin: 0;
+  }
 
-    .orden-uno {
-        order: 2;
-    }
-    .orden-dos {
-        order: 1;
-    }
-    .orden-tres {
-        order: 3;
-    }
-    .orden-cuatro {
-        order: 3;
-    }
-    .orden-cinco {
-        order: 6;
-    }
-    .orden-seis {
-        order: 5;
-    }
+  .orden-uno {
+    order: 2;
+  }
+  .orden-dos {
+    order: 1;
+  }
+  .orden-tres {
+    order: 3;
+  }
+  .orden-cuatro {
+    order: 3;
+  }
+  .orden-cinco {
+    order: 6;
+  }
+  .orden-seis {
+    order: 5;
+  }
 
-    .m6 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
+  .m6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 
-    .m7 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
+  .m7 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 
-    .m8 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+  .m8 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    .footer-mg {
-        margin-bottom: 0px;
-        margin-top: 20px;
-    }
+  .footer-mg {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+  .form-control {
+    margin: 5px 0;
+}
 }
