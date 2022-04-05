@@ -138,6 +138,10 @@ body {
     margin-bottom: 60px;
 }
 
+.m7 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 .logotipo-footer {
     width: 40%;
 }
@@ -149,6 +153,16 @@ body {
 .align-header {
     margin-top: 8em;
     margin-left: 5em;
+}
+
+.btn-default {
+    background-color: #064420 !important;
+    color: white !important;
+}
+
+.btn-default:hover {
+    background-color: #83b735 !important;
+    color: white !important;
 }
 
 @media (max-width: 768px) {
