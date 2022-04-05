@@ -134,6 +134,14 @@ body {
     margin-bottom: 60px;
 }
 
+.logotipo-footer {
+    width: 40%;
+}
+
+.footer-mg {
+    margin-bottom: 60px
+}
+
 @media (max-width: 768px) {
     .orden-uno {
         order: 2;
@@ -167,5 +175,10 @@ body {
     .m8 {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .footer-mg {
+        margin-bottom: 0px;
+        margin-top: 20px;
     }
 }
