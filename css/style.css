@@ -15,9 +15,8 @@ body {
 }
 
 .bg-border {
-    border-radius: 10px;
-    border: 2px solid #83b73557;
-    padding: 40px 10px;
+    border-radius: 12px;
+    
 }
 
 .fw-bold {
