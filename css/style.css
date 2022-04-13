@@ -17,6 +17,11 @@ body {
 .logotipo {
   width: 100px;
   background-size: cover;
+  
+}
+
+.pl-120 {
+  padding-left: 104px;
 }
 
 .bg-border {
@@ -156,7 +161,8 @@ body {
   margin-bottom: 80px;
 }
 .logotipo-footer {
-  width: 40%;
+  width: 120px;
+  height: auto;
 }
 
 .footer-mg {
@@ -169,13 +175,49 @@ body {
 }
 
 .btn-default {
-  background-color: #064420 !important;
+  background-color: #83b735 !important;
   color: white !important;
   border-radius: 20px !important;
 }
 
 .btn-default:hover {
-  background-color: #83b735 !important;
+  background-color: #1c5630 !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-miel {
+  background-color: #63431b !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-miel:hover {
+  background-color: #977750 !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-naranja {
+  background-color: #bf8717 !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-naranja:hover {
+  background-color: #d1aa5d !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-azul {
+  background-color: #005189 !important;
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-azul:hover {
+  background-color: #85b1cf !important;
   color: white !important;
   border-radius: 20px !important;
 }
